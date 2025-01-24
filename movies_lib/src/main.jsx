@@ -15,7 +15,7 @@ createRoot(document.getElementById('root')).render(
         <Route element={<App />}>
           <Route path='/movies_lib' element={<Home />} />
           <Route path="movie/:id" element={<Movie />} />
-          <Route path="search" element={<Search />} />
+          <Route path="/search" element={<Search />} />
         </Route>
       </Routes>
     </BrowserRouter>
